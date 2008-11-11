@@ -1,1 +1,7 @@
 Rails plugin that provides simple integration with Google services. Just Analytics for now.
+
+Add this to your config/environment.rb file:
+
+Google::Analytics.track '<tracking code>'
+
+And that's it.
